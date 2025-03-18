@@ -13,6 +13,7 @@ function App() {
     <>
 <Header />
       {/* <Cointainer /> */}
+      {/* {<Cointainer/>} */}
       {location.pathname !== "/fetch" && <Cointainer />}
 
      
